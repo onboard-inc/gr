@@ -1,0 +1,13 @@
+version: 2
+builds:
+  - env:
+      - CGO_ENABLED=0
+    targets:
+      - linux_amd64
+      - linux_arm64
+      - darwin_arm64
+archives:
+  - format: binary
+    # https://github.com/goreleaser/goreleaser/issues/602
+    files:
+      - none*

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-version=v1.0.0
+version=v1.0.1
 
 # --- No serviceable parts below ---
 
